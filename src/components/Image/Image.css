@@ -1,0 +1,16 @@
+#image {
+    height: 240px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.tip {
+   border-radius: 30px;
+   background-color: green;
+   color: black;
+   position: absolute;
+   bottom: '20%'; 
+   margin: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+}

@@ -8,11 +8,13 @@ function App() {
 
   return (
     <>
+      <Header></Header>
       <div id="cellContainer">
         {cellService.map((cell) => (
           <Card key={cell.id} texto={cell.name} isEnvioGratisApp={cell.isEnvioGratisApp} precio={cell.price} imageURL={cell.imageURL}></Card>
         ))}
       </div>
+      <Footer></Footer>
     </>
   )
 }

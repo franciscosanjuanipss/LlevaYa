@@ -1,16 +1,23 @@
-# React + Vite
+# Nombre Proyecto
+LleveYa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+E-commerce de una empresa chilena especializada en la venta de celulares, principalmente con la marca Apple
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Componentes Creados
 
-## React Compiler
+Card
+Button
+header
+footer
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instrucciones para ejecutar el proyecto
+crear una carpeta
+abrir visual studio code
+abrir la terminar e ingresar el comando git pull https://github.com/franciscosanjuanipss/LlevaYa.git
 
-## Expanding the ESLint configuration
+## Tecnologías usadas
+React+vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Capturas de pantalla del resultado final

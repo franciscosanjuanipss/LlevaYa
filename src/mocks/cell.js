@@ -12,14 +12,14 @@ export const cellService = [
         id: 1,
         name: "Iphone 15",
         price: "$719.990 CLP",
-        isEnvioGratisApp: true,
+        isEnvioGratisApp: false,
         imageURL: celular1
     },
     {
         id: 2,
         name: "Iphone 17",
         price: "$949.990 CLP",
-        isEnvioGratisApp: true,
+        isEnvioGratisApp: false,
         imageURL: celular2
     },
     {

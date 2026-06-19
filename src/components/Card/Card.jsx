@@ -11,10 +11,16 @@ function Card(props) {
                     <p>Envío gratis app</p>
                 </div>)
             }
-            <p>{props.texto}</p>
-            <p>{props.precio}</p>
-            <Button titulo="Comprar"></Button>
-            <Button titulo="Ver Producto"></Button>
+            <div>
+                <p>{props.texto}</p>
+            </div>
+            <div>
+                <p>{props.precio}</p>
+            </div>
+            <div>
+                <Button titulo="Comprar"></Button>
+                <Button titulo="Ver Producto"></Button>
+            </div>
         </div>
     )
 }

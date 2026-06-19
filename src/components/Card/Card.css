@@ -5,3 +5,12 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.tip {
+   border-radius: 30px;
+   background-color: green;
+   color: black;
+   margin: 2px;
+   padding-left: 10px;
+   padding-right: 10px;
+}

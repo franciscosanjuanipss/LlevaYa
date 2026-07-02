@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { cellService } from "./mocks/cell.js"
 import { Header, Card, Footer } from "./components";
+import ProductList from './components/ProductList/ProductList.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,9 +11,7 @@ function App() {
     <>
       <Header></Header>
       <div id="cellContainer">
-        {cellService.map((cell) => (
-          <Card key={cell.id} texto={cell.name} isEnvioGratisApp={cell.isEnvioGratisApp} precio={cell.price} imageURL={cell.imageURL}></Card>
-        ))}
+        <ProductList></ProductList>
       </div>
       <Footer></Footer>
     </>

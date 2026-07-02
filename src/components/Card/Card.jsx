@@ -5,17 +5,20 @@ import "./Card.css";
 function Card(props) {
     return (
         <div id="card">
-            <Image imageURL={props.imageURL}></Image>
+            <Image clase="image" imageURL={props.imageURL}></Image>
             {props.isEnvioGratisApp === true &&
                 (<div className="tip">
                     <p>Envío gratis app</p>
                 </div>)
             }
             <div>
-                <p>{props.texto}</p>
+                <h3>{props.texto}</h3>
             </div>
             <div>
-                <p>{props.precio}</p>
+                <span>{props.categoria}</span>
+            </div>
+            <div>
+                <span>{props.descripcion}</span>
             </div>
             <div>
                 <Button titulo="Comprar"></Button>

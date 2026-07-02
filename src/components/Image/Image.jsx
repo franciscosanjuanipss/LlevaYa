@@ -4,7 +4,7 @@ function Image(props) {
     return (
         <div>
             <div>
-                <img id="image" src={props.imageURL}></img>
+                <img id={props.clase} src={props.imageURL}></img>
             </div>
         </div>
     )

@@ -13,7 +13,6 @@ function ProductList() {
             .then((res) => res.json())
             .then((data) => {
                 setProducts(data.products)
-                console.log(data.products)
             })
             .catch((err) => {
                 setError(err.message)
